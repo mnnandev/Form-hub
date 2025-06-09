@@ -1,7 +1,11 @@
+"use client";
 import Link from 'next/link'
 import React from 'react'
+import useWow from '@/hooks/use-wow';
 
 export default function FooterOne() {
+  useWow();
+  
   return (
     <>
       <footer className="footer-section overflow-hidden position-relative footer-style1">
@@ -17,7 +21,7 @@ export default function FooterOne() {
                   </div>
                   <div className="footer-content">
                     <p className="pre-pragraph">
-                      Lorem ipsum dolor amet consectetur <br /> sell adipis elit phase nibh ellentes
+                    Agriculture and farming are essential industries 
                     </p>
                     <div className="social-wrapper social-empact d-flex align-items-center">
                       <a href="#" className="white-clr"><i className="white-clr fab fa-facebook-f"></i></a>
