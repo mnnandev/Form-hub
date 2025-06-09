@@ -3,16 +3,16 @@ import Link from 'next/link'
 import React from 'react'
 import useWow from '@/hooks/use-wow';
 
-export default function AboutHomeOne(): JSX.Element {
+export default function AboutHomeThree(): JSX.Element {
   useWow();
   
   return (
     <>
-      <section className="about-section style-v01 section-padding white-bg">
+      <section className="about-section style-v03 section-padding white-bg">
         <div className="container">
           <div className="row g-4 align-items-center justify-content-center">
             <div className="col-lg-6 col-md-6 col-sm-8 order-md-0 order-1">
-              <div className="about-thumv01 position-relative">
+              <div className="about-thumv03 position-relative">
                 <img src="assets/img/about/choose-man.png" alt="img" className="mimg" />
                 <img src="assets/img/about/f-food.png" alt="img" className="f-food wow fadeInLeft" data-wow-delay=".3s" />
                 <img src="assets/img/about/l-food.png" alt="img" className="l-food wow fadeInLeft" data-wow-delay=".5s" />
@@ -20,7 +20,7 @@ export default function AboutHomeOne(): JSX.Element {
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-8">
-              <div className="about-contentv01">
+              <div className="about-contentv03">
                 <div className="section-title mb-40">
                   <h5 className="p1-clr text-uppercase wow fadeInLeft" data-wow-delay="0.4s">
                     About Us
@@ -74,4 +74,4 @@ export default function AboutHomeOne(): JSX.Element {
       </section>
     </>
   )
-}
+} 
