@@ -1,12 +1,13 @@
 "use client"
 import { useEffect } from 'react';
-import WOW from 'wowjs';
 
 const useWow = () => {
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const wow = new WOW.WOW();
-      wow.init();
+      import('wowjs').then(({ WOW }) => {
+        const wow = new WOW({ live: false });
+        wow.init();
+      });
     }
   }, []);
 };
