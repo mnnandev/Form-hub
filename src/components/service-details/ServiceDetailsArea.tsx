@@ -4,28 +4,28 @@ import React, { useState } from 'react'
 const accordioa_data = [
   {
     id: 1,
-    title: 'CropSense Agriculture?',
-    description: 'It is a long established fact that a reader will be distracted',
+    title: 'Smart Farming Solutions',
+    description: 'Our advanced technology integration helps farmers optimize crop yields through precision agriculture, automated irrigation systems, and real-time monitoring.',
   },
   {
     id: 2,
-    title: 'Farm Thumb Services?',
-    description: 'It is a long established fact that a reader will be distracted',
+    title: 'Sustainable Agriculture',
+    description: 'We implement eco-friendly farming practices that reduce environmental impact while maintaining high productivity and crop quality.',
   },
   {
     id: 3,
-    title: 'Natures Landscaping?',
-    description: 'It is a long established fact that a reader will be distracted',
+    title: 'Crop Management',
+    description: 'Expert guidance on crop selection, rotation, and management techniques to maximize yield and minimize resource usage.',
   },
   {
     id: 4,
-    title: 'Fresh Start Farm',
-    description: 'It is a long established fact that a reader will be distracted',
+    title: 'Soil Health',
+    description: 'Comprehensive soil analysis and improvement programs to ensure optimal growing conditions and long-term soil fertility.',
   },
   {
     id: 5,
-    title: 'Evergreen Lawn Care',
-    description: 'It is a long established fact that a reader will be distracted',
+    title: 'Agricultural Consulting',
+    description: 'Professional consulting services to help farmers implement modern farming techniques and improve operational efficiency.',
   },
 ]
 
@@ -71,10 +71,10 @@ export default function ServiceDetailsArea() {
                 </div>
                 <div className="service-bambo-box wow fadeInUp" data-wow-delay=".4s">
                   <h3 className="text-uppercase">
-                    GET TOUCH
+                    GET IN TOUCH
                   </h3>
                   <span className="fast">
-                    For fast service
+                    For immediate assistance
                   </span>
                   <a href="#" className="call">
                     <span className="call-icon">
@@ -88,56 +88,48 @@ export default function ServiceDetailsArea() {
             <div className="col-lg-8">
               <div className="service-wrapper-right ps-xl-2">
                 <div className="thumb mb-30 wow fadeInUp" data-wow-delay=".3s">
-                  <img src="assets/img/service/service-single2.jpg" alt="img" />
+                  <img src="assets/img/service/service-single2.jpg" alt="Modern Farming" />
                 </div>
                 <div className="cont-box wow fadeInUp" data-wow-delay=".4">
                   <h3>
-                    Cultivate Success with Agriculture
+                    Revolutionizing Agriculture Through Innovation
                   </h3>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the
-                    printing .Lorem Ipsum is simply
-                    dummy text of the printing.Lorem Ipsum is simply dummy text of the printing Lorem Ipsum
-                    is si dummy text of the printing
-                    .Lorem Ipsum
+                    At FarmHub, we combine traditional farming wisdom with cutting-edge technology to create sustainable and efficient agricultural solutions. Our comprehensive services help farmers increase productivity while reducing environmental impact. From smart irrigation systems to precision farming techniques, we're committed to transforming the future of agriculture.
                   </p>
                 </div>
                 <div className="working-process-details">
                   <div className="working-proces-items01 wow fadeInUp" data-wow-delay=".4s">
                     <h3 className="white-clr">
-                      Prepare <br /> the soil
+                      Soil <br /> Preparation
                     </h3>
                     <div className="details-iconbox d-center">
-                      <img src="assets/img/icon/details-desert.svg" alt="img" />
+                      <img src="assets/img/icon/details-desert.svg" alt="Soil Preparation" />
                     </div>
                   </div>
                   <div className="working-proces-items01 wow fadeInUp" data-wow-delay=".5s">
                     <h3 className="white-clr">
-                      Prepare <br /> the soil
+                      Smart <br /> Planting
                     </h3>
                     <div className="details-iconbox d-center">
-                      <img src="assets/img/icon/details-flower.svg" alt="img" />
+                      <img src="assets/img/icon/details-flower.svg" alt="Smart Planting" />
                     </div>
                   </div>
                 </div>
                 <div className="cont-box mb-40 wow fadeInUp" data-wow-delay=".6s">
                   <h3>
-                    Explore the beauty of nature
+                    Sustainable Farming Practices
                   </h3>
                   <p>
-                    It is a long esta asblished fact that a reader will be distr acted byoi the read able
-                    content of a page when lookiing
-                    for okngjo at its layout The point of using Lorem Ipsum is that it has a more orless
-                    norimal dist ribution of letters
-                    opposed to using It is a long estab lished fact that a readey
+                    Our sustainable farming approach focuses on maintaining soil health, conserving water resources, and implementing eco-friendly pest management solutions. We help farmers adopt practices that ensure long-term productivity while protecting the environment. Through our innovative techniques, we're creating a more sustainable future for agriculture.
                   </p>
                 </div>
                 <div className="service-single-thumb">
                   <div className="thumb wow fadeInUp" data-wow-delay=".7s">
-                    <img src="assets/img/service/service-details-big.jpg" alt="img" />
+                    <img src="assets/img/service/service-details-big.jpg" alt="Sustainable Farming" />
                   </div>
                   <div className="thumb wow fadeInUp" data-wow-delay=".8s">
-                    <img src="assets/img/service/service-single1.jpg" alt="img" />
+                    <img src="assets/img/service/service-single1.jpg" alt="Modern Agriculture" />
                   </div>
                 </div>
               </div>
