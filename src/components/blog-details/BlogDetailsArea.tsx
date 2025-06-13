@@ -5,11 +5,7 @@ import Link from 'next/link'
 import React from 'react'
 
 export default function BlogDetailsArea() {
-
-  // const selectHandler = (e: any) => { };
   const selectHandler = (e: unknown) => { };
-
-
 
   return (
     <>
@@ -20,126 +16,60 @@ export default function BlogDetailsArea() {
               <div className="blog-post-details">
                 <div className="explore-details-content">
                   <h2 className="wow fadeInUp" data-wow-delay=".2s">
-                    Explore the beauty of nature
+                    Sustainable Agriculture: The Future of Farming
                   </h2>
                   <ul className="comment-inner wow fadeInUp" data-wow-delay=".3s">
                     <li>
-                      <a href="#"><i className="fa-regular fa-user"></i> By admin</a>
+                      <a href="#"><i className="fa-regular fa-user"></i> By FarmHub Team</a>
                     </li>
                     <li>
-                      <a href="#"><i className="fa-solid fa-folder-open"></i> Category</a>
+                      <a href="#"><i className="fa-solid fa-folder-open"></i> Sustainable Farming</a>
                     </li>
                     <li>
                       <a href="#"><i className="fa-solid fa-calendar-days"></i> October 19, 2024</a>
                     </li>
                   </ul>
                   <p className="fist-pra wow fadeInUp" data-wow-delay=".4s">
-                    Contrary to popular belief Lorem Ipsum is not simply random text It has roots in a piece
-                    of classical the a literature
-                    from 45 BC making it over 2000 years old. Richard McClintock a Latin professor at
-                    Hampden-a Sydney College Virgini the
-                    looked up one of the more obscure
-                  </p>
-                  <p className="mb-40 wow fadeInUp" data-wow-delay=".5">
-                    Contrary to popular belief Lorem Ipsum is not simply random text It has roots in a piece
-                    of classical a the a literature
-                    from 45 BC making it over 2000 years old. Richard McClintock a Latin professor
+                    In today's rapidly evolving agricultural landscape, sustainable farming practices have become more crucial than ever. As we face global challenges like climate change and food security, innovative farming methods are essential for creating a resilient and eco-friendly food system.
                   </p>
                   <div className="thumb w-100 mb-40 wow fadeInUp" data-wow-delay=".4s">
-                    <img src="assets/img/blog/bd1.jpg" alt="img" className="w-100" />
+                    <img src="assets/img/blog/bd1.jpg" alt="Sustainable Farming Practices" className="w-100" />
                   </div>
                   <p className="fist-pra wow fadeInUp" data-wow-delay=".5s">
-                    Contrary to popular belief Lorem Ipsum is not simply random text It has roots in a piece
-                    of classical the a literature
-                    from 45 BC making it over 2000 years old. Richard McClintock a Latin professor at
-                    Hampden-a Sydney College Virgini the
-                    looked up one of the more obscure
+                    Modern sustainable agriculture combines traditional farming wisdom with cutting-edge technology. From precision irrigation systems to organic pest management, farmers are adopting practices that protect the environment while maintaining high crop yields. These methods not only reduce the carbon footprint but also ensure long-term soil health and biodiversity.
                   </p>
                   <p className="fist-pra wow fadeInUp" data-wow-delay=".6s">
-                    Contrary to popular belief Lorem Ipsum is not simply random text It has roots in a piece
-                    of classical the a literature
-                    from 45 BC making it over 2000 years old. Richard McClintock
+                    The integration of smart farming technologies has revolutionized how we approach agriculture. IoT sensors, drone monitoring, and AI-powered analytics help farmers make data-driven decisions, optimizing resource usage and minimizing waste. This technological advancement is crucial for meeting the growing global food demand sustainably.
                   </p>
-                  <div className="quote-box mb-40 wow fadeInUp" data-wow-delay=".7s">
-                    <img src="assets/img/icon/quote-leftp2.svg" alt="img" />
+                  <div className="quote-box wow fadeInUp" data-wow-delay=".7s">
+                    <img src="assets/img/icon/quote-leftp2.svg" alt="Quote" />
                     <p>
-                      It is a long established fact that a reader will be distracted by the readable
-                      content of a page a when looking at its
-                      layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                      distribution of letters as opposed the maon
-                      design
+                      "Sustainable agriculture is not just about growing food; it's about nurturing the land, supporting communities, and securing our future. Every seed we plant today is an investment in tomorrow's harvest."
                     </p>
                     <h5>
-                      Skib Al sakin
+                      Sarah Johnson, Agricultural Expert
                     </h5>
                   </div>
                   <h3 className="wow fadeInUp" data-wow-delay=".3s">
-                    Keep your free time free!
+                    The Impact of Sustainable Practices
                   </h3>
                   <p className="fist-pra wow fadeInUp" data-wow-delay=".4s">
-                    Contrary to popular belief Lorem Ipsum is not simply random text It has roots in a piece
-                    of classical the literature
-                    from 45 BC making it over 2000 years old. Richard McClintock a Latin professoContrary to
-                    and popular belief Lorem Ipsum
-                    is not simply random text It has roots in a piece
+                    The benefits of sustainable farming extend far beyond the field. By implementing eco-friendly practices, farmers contribute to water conservation, reduce soil erosion, and promote biodiversity. These efforts create a positive ripple effect throughout the ecosystem, benefiting both the environment and local communities.
                   </p>
                   <div className="blog-single-thumb mb-30 wow fadeInUp" data-wow-delay=".5s">
                     <div className="thumb w-100">
-                      <img src="assets/img/blog/bd-single1.jpg" alt="img" className="w-100" />
+                      <img src="assets/img/blog/bd-single1.jpg" alt="Smart Farming Technology" className="w-100" />
                     </div>
                     <div className="thumb w-100">
-                      <img src="assets/img/blog/bd-single2.jpg" alt="img" className="w-100" />
+                      <img src="assets/img/blog/bd-single2.jpg" alt="Organic Farming Methods" className="w-100" />
                     </div>
                   </div>
-                  <p className="mb-20 wow fadeInUp" data-wow-delay=".3s">
-                    Contrary to popular belief Lorem Ipsum is not simply random text It has roots in a piece
-                    of classical the literature
-                    from 45 BC making it over 2000 years old. Richard McClintock a Latin professoContrary to
-                    and popular belief Lorem Ipsum
-                    is not simply random text It has roots in a piece
+                  <p className="fist-pra wow fadeInUp" data-wow-delay=".6s">
+                    As we look to the future, the role of sustainable agriculture becomes increasingly vital. By embracing innovation and traditional knowledge, we can create a farming system that nourishes both people and the planet. The journey towards sustainable agriculture is not just a choice—it's a necessity for ensuring food security and environmental preservation for generations to come.
                   </p>
                   <p className="wow fadeInUp" data-wow-delay=".7s">
-                    Contrary to popular belief Lorem Ipsum is not simply random text It has roots in a piece
-                    of classical the literature
-                    from 45 BC making it over 2000 years old. Richard McClintock
+                    Join us in exploring the transformative power of sustainable agriculture and discover how you can be part of this important movement towards a greener, more sustainable future.
                   </p>
-                </div>
-                <div className="social-tag-wrapper wow fadeInUp" data-wow-delay=".4s">
-                  <div className="left-tag">
-                    <h5>
-                      Tags:
-                    </h5>
-                    <ul className="tag-list">
-                      <li>
-                        <Link href="/blog-details">
-                          Care
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/blog-details">
-                          Beauity
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/blog-details">
-                          Good
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="social-wrapper d-flex align-items-center">
-                    <a href="#" className="white"><i className="white fa-brands fa-pinterest-p"></i></a>
-                    <a href="#" className="white"><i className="white fa-brands fa-linkedin-in"></i></a>
-                    <a href="#" className="white">
-                      <svg width="11" height="12" viewBox="0 0 11 12" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M6.55735 5.16157L10.5183 0.65625H9.57971L6.14039 4.56816L3.39341 0.65625H0.225098L4.37906 6.57174L0.225098 11.2963H1.16378L4.79579 7.16516L7.6968 11.2963H10.8651L6.55712 5.16157H6.55735ZM5.2717 6.62386L4.85082 6.03481L1.502 1.34768H2.94375L5.64629 5.13034L6.06717 5.71939L9.58015 10.6363H8.13839L5.2717 6.62409V6.62386Z"
-                          fill="white" />
-                      </svg>
-                    </a>
-                    <a href="#" className="white"><i className="white fab fa-facebook-f"></i></a>
-                  </div>
                 </div>
                 <div className="component-arrows mt-40 mb-40 wow fadeInUp" data-wow-delay=".5s">
                   <div className="arrow-item">
@@ -147,13 +77,13 @@ export default function BlogDetailsArea() {
                       <i className="fa-solid fa-arrow-left"></i>
                     </Link>
                     <h5>
-                      More Care <br /> places
+                      Smart Farming <br /> Solutions
                     </h5>
                   </div>
                   <span className="cusline"></span>
                   <div className="arrow-item">
                     <h5 className="text-end">
-                      Mastering <br /> the Art
+                      Organic <br /> Agriculture
                     </h5>
                     <a href="#" className="arrows active">
                       <i className="fa-solid fa-arrow-right"></i>
@@ -161,15 +91,15 @@ export default function BlogDetailsArea() {
                   </div>
                 </div>
                 <div className="replay-single-box wow fadeInUp" data-wow-delay=".6s">
-                  <img src="assets/img/blog/reply-kishan.png" alt="img" className="krishana" />
+                  <img src="assets/img/blog/reply-kishan.png" alt="Expert Comment" className="krishana" />
                   <div className="content">
                     <div className="man-info-area mb-20">
                       <div className="man-info">
                         <h3>
-                          Kristin Watson
+                          Dr. Michael Chen
                         </h3>
                         <span>
-                          December 23,2024 at 8:50 P.M
+                          Agricultural Scientist
                         </span>
                       </div>
                       <button className="replys" type="button">
@@ -177,67 +107,22 @@ export default function BlogDetailsArea() {
                       </button>
                     </div>
                     <p>
-                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                      piece of classical Latin literature
-                      from 45 BC, making it over 2000
+                      "The integration of technology and sustainable practices is revolutionizing modern agriculture. This approach not only increases efficiency but also ensures environmental preservation for future generations."
                     </p>
                   </div>
-                </div>
-                <div className="who-contact-wrap mt-60 mb-60 wow fadeInUp" data-wow-delay=".7s">
-                  <h3 className="mb-40 text-capitalize">
-                    Leave A Reply
-                  </h3>
-                  <form onSubmit={e => e.preventDefault()} className="row g-xl-4 g-3">
-                    <div className="col-lg-6">
-                      <input type="text" placeholder="Name" />
-                    </div>
-                    <div className="col-lg-6">
-                      <input type="email" placeholder="E-mail" />
-                    </div>
-                    <div className="col-lg-6">
-                      <input type="number" placeholder="Your Number" />
-                    </div>
-                    <div className="col-lg-6">
-
-                      <NiceSelect
-                        options={[
-                          { value: "00", text: "Your Area" },
-                          { value: "01", text: "Us" },
-                          { value: "02", text: "Uk" },
-                          { value: "04", text: "Turky" },
-                        ]}
-                        defaultCurrent={0}
-                        onChange={selectHandler}
-                        placeholder="Select an option"
-                        name="myNiceSelect"
-                      />
-
-                    </div>
-                    <div className="col-lg-12">
-                      <textarea name="message" rows={4} placeholder="Message"></textarea>
-                    </div>
-                    <div className="col-lg-12">
-                      <button type="submit" className="cmn-btn">
-                        Sent Now
-                        <i className="fa-solid fa-arrow-right"></i>
-                      </button>
-                    </div>
-                  </form>
                 </div>
                 <div className="maybe-liking wow fadeInUp" data-wow-delay=".8s">
                   <h3 className="mb-40">
                     You May Also Like
                   </h3>
                   <div className="thumb mb-30">
-                    <img src="assets/img/blog/bd2.jpg" alt="img" />
+                    <img src="assets/img/blog/bd2.jpg" alt="Related Article" />
                   </div>
                   <h3 className="p900-clr mb-20">
-                    Transform your outdoor space into a botanical
+                    Smart Technology in Modern Agriculture
                   </h3>
                   <p>
-                    Contrary to popular belief Lorem Ipsum is not simply random text It has roots in a piece
-                    of classical the literature
-                    from 45 BC making it over 2000 years old. Richard McClintock
+                    Discover how cutting-edge technology is transforming traditional farming methods, making agriculture more efficient and sustainable than ever before.
                   </p>
                 </div>
               </div>
@@ -250,86 +135,52 @@ export default function BlogDetailsArea() {
                   </div>
                   <div className="search-widget" data-aos="zoom-in" data-aos-duration="1400">
                     <form onSubmit={e => e.preventDefault()}>
-                      <input type="text" placeholder="Search here..." />
+                      <input type="text" placeholder="Search articles..." />
                       <button type="submit"><i className="fas fa-search"></i></button>
                     </form>
                   </div>
                 </div>
-                <div className="box common-style-box wow fadeInUp" data-wow-delay=".3s">
-                  <div className="wid-title wow fadeInLeft" data-wow-delay=".3s">
-                    <h3>Search</h3>
-                  </div>
-                  <div className="category" data-aos="fade-down" data-aos-duration="1600">
-                    <ul className="d-grid gap-xxl-3 gap-3">
-                      <li>
-                        <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>Evergreen Lawn Care
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>Petal Perfect Farming
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>Blissful Botanicals
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>The Farm Guru
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>Serene Scape Design
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
                 <div className="box common-style-box wow fadeInUp" data-wow-delay=".4s">
                   <div className="wid-title wow fadeInLeft" data-wow-delay=".3s">
-                    <h3>Latest Blogs</h3>
+                    <h3>Latest Articles</h3>
                   </div>
                   <div className="recent-postwrap">
                     <div className="recent-items">
                       <div className="recent-thumb">
-                        <img src="assets/img/blog/details-small1.png" alt="img" />
+                        <img src="assets/img/blog/details-small1.png" alt="Latest Article" />
                       </div>
                       <div className="recent-content">
                         <span className="d-flex align-items-center gap-2">
-                          <i className="fa-solid fa-calendar-days"></i> Jan 10,2024
+                          <i className="fa-solid fa-calendar-days"></i> Jan 10, 2024
                         </span>
                         <Link href="/blog-details">
-                          Planting the Seeds of Innovation
+                          Smart Irrigation Systems
                         </Link>
                       </div>
                     </div>
                     <div className="recent-items">
                       <div className="recent-thumb">
-                        <img src="assets/img/blog/details-small2.png" alt="img" />
+                        <img src="assets/img/blog/details-small2.png" alt="Latest Article" />
                       </div>
                       <div className="recent-content">
                         <span className="d-flex align-items-center gap-2">
-                          <i className="fa-solid fa-calendar-days"></i> Jan 10,2024
+                          <i className="fa-solid fa-calendar-days"></i> Jan 10, 2024
                         </span>
                         <Link href="/blog-details">
-                          Discover the Potential of Agriculture
+                          Organic Pest Control
                         </Link>
                       </div>
                     </div>
                     <div className="recent-items">
                       <div className="recent-thumb">
-                        <img src="assets/img/blog/details-small13.png" alt="img" />
+                        <img src="assets/img/blog/details-small13.png" alt="Latest Article" />
                       </div>
                       <div className="recent-content">
                         <span className="d-flex align-items-center gap-2">
-                          <i className="fa-solid fa-calendar-days"></i> Jan 10,2024
+                          <i className="fa-solid fa-calendar-days"></i> Jan 10, 2024
                         </span>
                         <Link href="/blog-details">
-                          Nourish Your Life with Agriculture
+                          Soil Health Management
                         </Link>
                       </div>
                     </div>
@@ -337,15 +188,15 @@ export default function BlogDetailsArea() {
                 </div>
                 <div className="box common-style-box wow fadeInUp" data-wow-delay=".5s">
                   <div className="wid-title wow fadeInLeft" data-wow-delay=".3s">
-                    <h3>Tags</h3>
+                    <h3>Categories</h3>
                   </div>
                   <div className="tagwrap">
-                    <Link href="/blog-details">CropCare Pro</Link>
-                    <Link href="/blog-details">Blossoms</Link>
-                    <Link href="/blog-details">Farm</Link>
-                    <Link href="/blog-details">Harmony</Link>
-                    <Link href="/blog-details">Nature</Link>
-                    <Link href="/blog-details">Green</Link>
+                    <Link href="/blog-details">Smart Farming</Link>
+                    <Link href="/blog-details">Organic</Link>
+                    <Link href="/blog-details">Technology</Link>
+                    <Link href="/blog-details">Sustainability</Link>
+                    <Link href="/blog-details">Innovation</Link>
+                    <Link href="/blog-details">Research</Link>
                   </div>
                 </div>
               </div>

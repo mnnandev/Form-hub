@@ -1,4 +1,3 @@
-
 "use client"
 import Link from 'next/link'
 import React from 'react'
@@ -13,9 +12,9 @@ export default function BlogArea() {
               <div className="blog-details-big pe-xl-2">
                 <div className="blog-details-leftitem wow fadeInUp" data-wow-delay=".2s">
                   <div className="thumb position-relative">
-                    <img src="assets/img/blog/blog-big01.jpg" alt="img" />
+                    <img src="assets/img/blog/blog-big01.jpg" alt="Smart Farming Technology" />
                     <span className="date-badge">
-                      22 jan
+                      Jan 22
                     </span>
                   </div>
                   <div className="content">
@@ -24,18 +23,14 @@ export default function BlogArea() {
                         <a href="#"><i className="fa-regular fa-comments"></i> Comments (05)</a>
                       </li>
                       <li>
-                        <a href="#"><i className="fa-regular fa-user"></i> By admin</a>
+                        <a href="#"><i className="fa-regular fa-user"></i> By FarmHub Team</a>
                       </li>
                     </ul>
                     <Link href="/blog-details" className="titles">
-                      Farming for a Better Future
+                      Revolutionizing Agriculture with Smart Technology
                     </Link>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis
-                      sem. a Imperdiet massa turpis sit
-                      Lorem ipsum dolor sit amet consectetur. Amet lectus mi the ultricies dictum
-                      facilisis sem. Imperdiet best destination in
-                      the world
+                      Discover how cutting-edge technology is transforming traditional farming methods. From IoT sensors to AI-powered analytics, learn how smart farming solutions are increasing efficiency and sustainability in modern agriculture.
                     </p>
                     <Link href="/blog-details" className="cmn-btn primary-border">
                       Read More
@@ -45,29 +40,25 @@ export default function BlogArea() {
                 </div>
                 <div className="blog-details-leftitem wow fadeInUp" data-wow-delay=".3s">
                   <div className="thumb position-relative">
-                    <img src="assets/img/blog/blog-big02.jpg" alt="img" />
+                    <img src="assets/img/blog/blog-big02.jpg" alt="Sustainable Farming Practices" />
                     <span className="date-badge">
-                      22 jan
+                      Jan 20
                     </span>
                   </div>
                   <div className="content">
                     <ul className="comment-inner">
                       <li>
-                        <a href="#"><i className="fa-regular fa-comments"></i> Comments (05)</a>
+                        <a href="#"><i className="fa-regular fa-comments"></i> Comments (03)</a>
                       </li>
                       <li>
-                        <a href="#"><i className="fa-regular fa-user"></i> By admin</a>
+                        <a href="#"><i className="fa-regular fa-user"></i> By FarmHub Team</a>
                       </li>
                     </ul>
                     <Link href="/blog-details" className="titles">
-                      Cultivate Success with Agriculture
+                      Sustainable Agriculture: A Path to Food Security
                     </Link>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis
-                      sem. a Imperdiet massa turpis sit
-                      Lorem ipsum dolor sit amet consectetur. Amet lectus mi the ultricies dictum
-                      facilisis sem. Imperdiet best destination in
-                      the world
+                      Explore the importance of sustainable farming practices in ensuring long-term food security. Learn about eco-friendly methods that protect the environment while maintaining high crop yields and supporting local communities.
                     </p>
                     <Link href="/blog-details" className="cmn-btn primary-border">
                       Read More
@@ -77,29 +68,25 @@ export default function BlogArea() {
                 </div>
                 <div className="blog-details-leftitem wow fadeInUp" data-wow-delay=".4s">
                   <div className="thumb position-relative">
-                    <img src="assets/img/blog/blog-big03.jpg" alt="img" />
+                    <img src="assets/img/blog/blog-big03.jpg" alt="Organic Farming Methods" />
                     <span className="date-badge">
-                      22 jan
+                      Jan 18
                     </span>
                   </div>
                   <div className="content">
                     <ul className="comment-inner">
                       <li>
-                        <a href="#"><i className="fa-regular fa-comments"></i> Comments (05)</a>
+                        <a href="#"><i className="fa-regular fa-comments"></i> Comments (04)</a>
                       </li>
                       <li>
-                        <a href="#"><i className="fa-regular fa-user"></i> By admin</a>
+                        <a href="#"><i className="fa-regular fa-user"></i> By FarmHub Team</a>
                       </li>
                     </ul>
                     <Link href="/blog-details" className="titles">
-                      Sow the Seeds of Prosperity
+                      The Future of Organic Farming
                     </Link>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis
-                      sem. a Imperdiet massa turpis sit
-                      Lorem ipsum dolor sit amet consectetur. Amet lectus mi the ultricies dictum
-                      facilisis sem. Imperdiet best destination in
-                      the world
+                      Dive into the world of organic farming and its growing importance in modern agriculture. Understand how natural methods and traditional wisdom are being combined with modern techniques to create healthier, more sustainable food systems.
                     </p>
                     <Link href="/blog-details" className="cmn-btn primary-border">
                       Read More
@@ -109,29 +96,25 @@ export default function BlogArea() {
                 </div>
                 <div className="blog-details-leftitem wow fadeInUp" data-wow-delay=".5s">
                   <div className="thumb position-relative">
-                    <img src="assets/img/blog/blog-big04.jpg" alt="img" />
+                    <img src="assets/img/blog/blog-big04.jpg" alt="Precision Agriculture" />
                     <span className="date-badge">
-                      22 jan
+                      Jan 15
                     </span>
                   </div>
                   <div className="content">
                     <ul className="comment-inner">
                       <li>
-                        <a href="#"><i className="fa-regular fa-comments"></i> Comments (05)</a>
+                        <a href="#"><i className="fa-regular fa-comments"></i> Comments (06)</a>
                       </li>
                       <li>
-                        <a href="#"><i className="fa-regular fa-user"></i> By admin</a>
+                        <a href="#"><i className="fa-regular fa-user"></i> By FarmHub Team</a>
                       </li>
                     </ul>
                     <Link href="/blog-details" className="titles">
-                      From Farm to Table, Agriculture Matters
+                      Precision Agriculture: Maximizing Efficiency
                     </Link>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis
-                      sem. a Imperdiet massa turpis sit
-                      Lorem ipsum dolor sit amet consectetur. Amet lectus mi the ultricies dictum
-                      facilisis sem. Imperdiet best destination in
-                      the world
+                      Learn about the latest advancements in precision agriculture and how they're helping farmers optimize resource usage. From GPS-guided equipment to data-driven decision making, discover how technology is revolutionizing farming efficiency.
                     </p>
                     <Link href="/blog-details" className="cmn-btn primary-border">
                       Read More
@@ -141,29 +124,25 @@ export default function BlogArea() {
                 </div>
                 <div className="blog-details-leftitem wow fadeInUp" data-wow-delay=".6s">
                   <div className="thumb position-relative">
-                    <img src="assets/img/blog/blog-big05.jpg" alt="img" />
+                    <img src="assets/img/blog/blog-big05.jpg" alt="Agricultural Innovation" />
                     <span className="date-badge">
-                      22 jan
+                      Jan 12
                     </span>
                   </div>
                   <div className="content">
                     <ul className="comment-inner">
                       <li>
-                        <a href="#"><i className="fa-regular fa-comments"></i> Comments (05)</a>
+                        <a href="#"><i className="fa-regular fa-comments"></i> Comments (04)</a>
                       </li>
                       <li>
-                        <a href="#"><i className="fa-regular fa-user"></i> By admin</a>
+                        <a href="#"><i className="fa-regular fa-user"></i> By FarmHub Team</a>
                       </li>
                     </ul>
                     <Link href="/blog-details" className="titles">
-                      Planting the Seeds of Innovation
+                      Innovation in Agricultural Technology
                     </Link>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis
-                      sem. a Imperdiet massa turpis sit
-                      Lorem ipsum dolor sit amet consectetur. Amet lectus mi the ultricies dictum
-                      facilisis sem. Imperdiet best destination in
-                      the world
+                      Explore the cutting-edge innovations shaping the future of agriculture. From vertical farming to automated systems, discover how new technologies are addressing global food challenges and creating more sustainable farming practices.
                     </p>
                     <Link href="/blog-details" className="cmn-btn primary-border">
                       Read More
@@ -180,87 +159,53 @@ export default function BlogArea() {
                     <h3>Search</h3>
                   </div>
                   <div className="search-widget" data-aos="zoom-in" data-aos-duration="1400">
-                    <form onSubmit={(e) => e.preventDefault()}>
-                      <input type="text" placeholder="Search here..." />
+                    <form onSubmit={e => e.preventDefault()}>
+                      <input type="text" placeholder="Search articles..." />
                       <button type="submit"><i className="fas fa-search"></i></button>
                     </form>
                   </div>
                 </div>
-                <div className="box common-style-box wow fadeInUp" data-wow-delay=".3s">
-                  <div className="wid-title wow fadeInLeft" data-wow-delay=".3s">
-                    <h3>Search</h3>
-                  </div>
-                  <div className="category" data-aos="fade-down" data-aos-duration="1600">
-                    <ul className="d-grid gap-xxl-3 gap-3">
-                      <li>
-                        <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>Evergreen Lawn Care
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>Petal Perfect Farming
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>Blissful Botanicals
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>The Farm Guru
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>Serene Scape Design
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
                 <div className="box common-style-box wow fadeInUp" data-wow-delay=".4s">
                   <div className="wid-title wow fadeInLeft" data-wow-delay=".3s">
-                    <h3>Latest Blogs</h3>
+                    <h3>Latest Articles</h3>
                   </div>
                   <div className="recent-postwrap">
                     <div className="recent-items">
                       <div className="recent-thumb">
-                        <img src="assets/img/blog/details-small1.png" alt="img" />
+                        <img src="assets/img/blog/details-small1.png" alt="Latest Article" />
                       </div>
                       <div className="recent-content">
                         <span className="d-flex align-items-center gap-2">
-                          <i className="fa-solid fa-calendar-days"></i> Jan 10,2024
+                          <i className="fa-solid fa-calendar-days"></i> Jan 10, 2024
                         </span>
                         <Link href="/blog-details">
-                          Planting the Seeds of Innovation
+                          Smart Irrigation Systems
                         </Link>
                       </div>
                     </div>
                     <div className="recent-items">
                       <div className="recent-thumb">
-                        <img src="assets/img/blog/details-small2.png" alt="img" />
+                        <img src="assets/img/blog/details-small2.png" alt="Latest Article" />
                       </div>
                       <div className="recent-content">
                         <span className="d-flex align-items-center gap-2">
-                          <i className="fa-solid fa-calendar-days"></i> Jan 10,2024
+                          <i className="fa-solid fa-calendar-days"></i> Jan 10, 2024
                         </span>
                         <Link href="/blog-details">
-                          Discover the Potential of Agriculture
+                          Organic Pest Control
                         </Link>
                       </div>
                     </div>
                     <div className="recent-items">
                       <div className="recent-thumb">
-                        <img src="assets/img/blog/details-small13.png" alt="img" />
+                        <img src="assets/img/blog/details-small13.png" alt="Latest Article" />
                       </div>
                       <div className="recent-content">
                         <span className="d-flex align-items-center gap-2">
-                          <i className="fa-solid fa-calendar-days"></i> Jan 10,2024
+                          <i className="fa-solid fa-calendar-days"></i> Jan 10, 2024
                         </span>
                         <Link href="/blog-details">
-                          Nourish Your Life with Agriculture
+                          Soil Health Management
                         </Link>
                       </div>
                     </div>
@@ -268,15 +213,15 @@ export default function BlogArea() {
                 </div>
                 <div className="box common-style-box wow fadeInUp" data-wow-delay=".5s">
                   <div className="wid-title wow fadeInLeft" data-wow-delay=".3s">
-                    <h3>Tags</h3>
+                    <h3>Categories</h3>
                   </div>
                   <div className="tagwrap">
-                    <Link href="/blog-details">CropCare Pro</Link>
-                    <Link href="/blog-details">Blossoms</Link>
-                    <Link href="/blog-details">Farm</Link>
-                    <Link href="/blog-details">Harmony</Link>
-                    <Link href="/blog-details">Nature</Link>
-                    <Link href="/blog-details">Green</Link>
+                    <Link href="/blog-details">Smart Farming</Link>
+                    <Link href="/blog-details">Organic</Link>
+                    <Link href="/blog-details">Technology</Link>
+                    <Link href="/blog-details">Sustainability</Link>
+                    <Link href="/blog-details">Innovation</Link>
+                    <Link href="/blog-details">Research</Link>
                   </div>
                 </div>
               </div>
